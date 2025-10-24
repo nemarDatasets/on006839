@@ -1,0 +1,18 @@
+{
+    "Name": "EEG alpha modulation using sham neurofeedback",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "C. Brigitte Aguilar Gonzales"
+    ],
+    "Acknowledgements": "",
+    "HowToAcknowledge": "Please cite this dataset as: [tu cita aqu\u00ed]",
+    "Funding": [
+        "CONICET",
+        "Universidad Nacional de Entre R\u00edos"
+    ],
+    "ReferencesAndLinks": [
+        "https://osf.io/aumvk/"
+    ],
+    "DatasetDOI": ""
+}

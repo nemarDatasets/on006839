@@ -1,0 +1,17 @@
+{
+    "Manufacturer": "Compumedics NeuroScan",
+    "ManufacturersModelName": "SynAmps RT amplifier",
+    "EEGReference": "FCz",
+    "EEGGround": "AFz",
+    "SamplingFrequency": 1000,
+    "PowerLineFrequency": 50,
+    "SoftwareFilters": "n/a",
+    "SoftwareVersions": "MNE-BIDS 0.15, MNE 1.7",
+    "StimulusPresentation": "Unity + custom VR environment",
+    "InstitutionName": "Universidad Nacional de Entre R\u00edos",
+    "InstitutionAddress": "Oro Verde, Entre R\u00edos, Argentina",
+    "InstitutionalDepartmentName": "Grupo de Investigaci\u00f3n en Neurociencia Computacional y Experimental",
+    "TaskName": "resting",
+    "TaskDescription": "Resting-state recording with eyes open and eyes closed",
+    "Instructions": "Keep eyes open and fixate on a fixation cross while remaining still, then close your eyes."
+}
