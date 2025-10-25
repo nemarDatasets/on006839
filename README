@@ -36,11 +36,7 @@ Original EEG recordings were collected in .cnt format (NeuroScan).
 
 Data were converted to the Brain Imaging Data Structure (BIDS) format using the MNE-BIDS toolbox (Appelhoff et al., 2019).
 
-Each subject folder (e.g., sub-01/) contains EEG data files (.edf or .fif), event markers, and corresponding JSON sidecar files with acquisition parameters.
-
-Preprocessing summary
-
-Data were analyzed offline using MNE-Python (Gramfort et al., 2013). Signals were band-pass filtered between 4–30 Hz, notch-filtered at 50 Hz, downsampled to 250 Hz, and re-referenced to the average of all electrodes. Artifacts were removed using Artifact Subspace Reconstruction (ASR) implemented in the asrpy Python package (Kothe & Jung, 2016).
+Each subject folder (e.g., sub-01/) contains EEG data files (.eeg), event markers, and corresponding JSON sidecar files with acquisition parameters.
 
 Data availability
 
