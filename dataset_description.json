@@ -45,5 +45,5 @@
   "SoftwareFilters": "High-pass filter 0.1 Hz, low-pass filter 500 Hz, notch 50 Hz",
   "TaskDescription": "Participants received sham neurofeedback (positive, negative, or no feedback) in a VR environment while EEG was recorded. The task aimed to assess the influence of feedback valence on alpha-band modulation during an attentional task. During the resting state task, two conditions were performed: eyes open (fixation cross) and eyes closed (1.5 min each conditon).",
   "Instructions": "Participants were instructed to remain relaxed, minimize movements, and pay attention to the sound of an object in the VR environment",
-  "StimulusPresentation": "Visual and auditory stimuli were presented using a VR headset developed in Unity3D, synchronized with event markers sent to the EEG system.",
+  "StimulusPresentation": "Visual and auditory stimuli were presented using a VR headset developed in Unity3D, synchronized with event markers sent to the EEG system."
 }
