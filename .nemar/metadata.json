@@ -1,34 +1,91 @@
 {
   "version": "2.0",
-  "dataset_id": "on006839",
-  "source": "openneuro",
-  "source_id": "ds006839",
+  "pipeline_stage": "enriched",
   "title": "EEG recordings during sham neurofeedback in virtual reality",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "C. Brigitte Aguilar Gonzales": {},
     "Collaborators from the Experimental and Computational Neuroscience Group": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006839.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006839",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006839",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "This work was supported by CONICET (Argentina) and Universidad Nacional de Entre Ríos."
+    },
+    {
+      "funder_name": "CONICET",
+      "award_title": "Argentina"
+    },
+    {
+      "funder_name": "Universidad Nacional de Entre Ríos"
     }
   ],
-  "acknowledgements": "We thank all participants for their contribution to this study and the research group for technical support."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "11.1 GB (433 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings acquired during a sham neurofeedback experiment conducted in virtual reality, investigating how feedback valence modulates alpha-band activity during attentional tasks. Participants received positive, negative, or control feedback while performing an attentional task, with additional resting-state recordings (eyes open and closed). Data were collected using a 32-channel SynAmps RT system and converted to BIDS format.",
+  "methods_description": "EEG signals were recorded using a 32-channel SynAmps RT amplifier (Compumedics NeuroScan Inc.) with Ag/AgCl passive electrodes mounted on an elastic cap following the extended 10–20 international system. Visual and auditory stimuli were presented via a VR headset developed in Unity3D, synchronized with event markers sent to the EEG system. Participants completed four conditions: positive feedback, negative feedback, control (no feedback), and resting-state (eyes open and closed, 1.5 minutes each). High-pass filter 0.1 Hz, low-pass filter 500 Hz, and notch filter 50 Hz were applied.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "neurofeedback"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "feedback"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "e72d683e979d86b51c8a9a733114eae7becb05153fada0709dc6715ad28f4606"
 }
