@@ -1,4 +1,6 @@
-﻿EEG recordings during sham neurofeedback in virtual reality
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006839-blue)](https://doi.org/10.82901/nemar.on006839)
+
+EEG recordings during sham neurofeedback in virtual reality
 
 Description
 
