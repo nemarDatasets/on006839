@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG recordings during sham neurofeedback in virtual reality",
-  "description": "This dataset contains 32-channel EEG recordings acquired during a sham neurofeedback experiment in a virtual reality environment. The study examined how feedback valence (positive, negative, or no feedback) modulates alpha-band activity during an attentional task. Each participant also completed an eyes-open/eyes-closed resting-state recording. Data are provided in BIDS format.",
-  "methods_description": "EEG was recorded with a 32-channel SynAmps RT amplifier (Compumedics NeuroScan) using Ag/AgCl passive electrodes on an elastic cap placed according to the extended 10-20 system. Each feedback condition (positive, negative, control) consisted of four blocks of about 2 minutes, presented through a Unity3D VR headset with event markers synchronized to the EEG. Resting state comprised 1.5 minutes each of eyes open and eyes closed. Original .cnt files were converted to BIDS with MNE-BIDS.",
+  "description": "This dataset contains 32-channel EEG recordings acquired during a sham neurofeedback experiment in a virtual reality environment. The study examined how feedback valence (positive, negative, or none) modulates alpha-band activity during an attentional task. Each participant completed positive, negative, control, and resting-state (eyes open/eyes closed) conditions.",
+  "methods_description": "EEG was recorded with a 32-channel Compumedics NeuroScan SynAmps RT amplifier and Ag/AgCl passive electrodes on an elastic cap following the extended 10-20 system. Stimuli were delivered through a VR headset developed in Unity3D and synchronized with event markers. Each feedback condition consisted of four blocks of about 2 minutes, and the resting-state condition alternated eyes open and eyes closed (1.5 min each). Original .cnt files were converted to BIDS with MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,23 +15,24 @@
       "term": "EEG"
     },
     {
-      "term": "Neurofeedback",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D058765"
+      "term": "neurofeedback"
     },
     {
-      "term": "Virtual Reality",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000076142"
+      "term": "virtual reality"
     },
     {
-      "term": "alpha oscillations"
+      "term": "alpha band"
+    },
+    {
+      "term": "attention"
     },
     {
       "term": "sham feedback"
     },
     {
-      "term": "attention"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
