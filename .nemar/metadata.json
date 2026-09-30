@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG recordings during sham neurofeedback in virtual reality",
-  "description": "This dataset comprises 32-channel EEG recordings collected during a sham neurofeedback experiment conducted in a virtual reality environment. Participants underwent four conditions—positive feedback, negative feedback, control, and resting-state (eyes open/closed)—designed to examine how feedback valence influences alpha-band activity during an attentional task. The data were originally recorded in NeuroScan .cnt format and converted to BIDS using MNE-BIDS.",
-  "methods_description": "EEG signals were recorded using a 32-channel SynAmps RT amplifier (Compumedics NeuroScan Inc.) with Ag/AgCl passive electrodes on an elastic cap (Wuhan Greentek Pty. Ltd.) following the extended 10-20 system. Participants completed positive, negative, and control feedback conditions in a VR environment, plus a resting-state condition alternating eyes open and eyes closed (1.5 min each). Stimuli were presented via a Unity3D-developed VR headset synchronized with event markers sent to the EEG system. Original .cnt recordings were converted to BIDS format using the MNE-BIDS toolbox.",
+  "description": "This dataset contains 32-channel EEG recordings acquired during a sham neurofeedback experiment in a virtual reality environment. The study examined how feedback valence (positive, negative, or no feedback) modulates alpha-band activity during an attentional task. Each participant also completed an eyes-open/eyes-closed resting-state recording. Data are provided in BIDS format.",
+  "methods_description": "EEG was recorded with a 32-channel SynAmps RT amplifier (Compumedics NeuroScan) using Ag/AgCl passive electrodes on an elastic cap placed according to the extended 10-20 system. Each feedback condition (positive, negative, control) consisted of four blocks of about 2 minutes, presented through a Unity3D VR headset with event markers synchronized to the EEG. Resting state comprised 1.5 minutes each of eyes open and eyes closed. Original .cnt files were converted to BIDS with MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,15 +25,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000076142"
     },
     {
-      "term": "alpha-band activity"
+      "term": "alpha oscillations"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "sham feedback"
     },
     {
-      "term": "resting state"
+      "term": "attention"
     }
   ],
   "related_identifiers": [
@@ -75,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.1 GB (433 files)"
+    "10.35 GB (433 files)"
   ],
   "formats": [
     ".eeg",
